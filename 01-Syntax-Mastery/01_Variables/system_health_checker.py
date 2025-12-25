@@ -1,4 +1,4 @@
-# System Health Checker
+# # Simple system health evaluation using conditional logic
 
 cpu_usage=int(input("Enter CPU usage percentage (0-100): "))
 memory_available=int(input("Enter available memory (in GB): "))
