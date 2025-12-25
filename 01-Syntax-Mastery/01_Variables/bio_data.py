@@ -1,10 +1,14 @@
-# Bio Data Script
+''' 
+Bio Data Script 
+'''
 
+# Personal and academic details
 name = "Shorya"
 age = 16
 target_field = "Artificial Intelligence"
 aspiring_researcher = True
 
+# Display bio data to the console
 print(f"Name: {name}")
 print(f"Age: {age} years")
 print(f"Target Field: {target_field}")
