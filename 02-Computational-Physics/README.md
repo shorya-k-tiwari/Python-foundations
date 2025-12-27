@@ -1,43 +1,26 @@
-# Python Foundations
+# Computational Physics
 
-This repository documents my progression from Python fundamentals to
-machine learning and research-level programming.
+This section applies Python to simulate and compute real physical systems.
 
-The focus is not speed or shortcuts, but depth, clarity, and correctness.
+The objective is simple:
+Turn physics formulas into working, testable programs.
 
----
+This folder exists to:
+- Bridge theory and computation
+- Build intuition for motion, forces, and systems
+- Prepare for advanced simulations and AI-based modeling
 
-## Structure
+Key principles:
+- Physics first, code second
+- Units, constants, and assumptions must be explicit
+- No magic numbers, no blind copying
 
-01-Syntax-Mastery/
-- Core Python syntax
-- Control flow, data types, functions
-- Clean, readable, predictable code
+Examples include:
+- Projectile motion
+- Time of flight
+- Range calculations
+- Kinematic equations
+- Future: numerical simulations and visualizations
 
-02-Computational-Physics/
-- Physics-based programs
-- Kinematics, dynamics, numerical simulations
-
-03-Mathematical-Foundations/
-- Algebra, calculus, linear algebra implemented in code
-
-04-Logic-Algorithms/
-- Algorithmic thinking
-- Data structures and problem decomposition
-
-05-Research-Projects/
-- Larger systems
-- Experimentation, analysis, and documentation
-
----
-
-## Rules
-
-- No copy-paste learning
-- No blind library usage
-- Every program must be explainable line-by-line
-- Progress is incremental and permanent
-
----
-
-Status: Active
+If mathematics is the blade,
+computational physics is learning how to swing it.
