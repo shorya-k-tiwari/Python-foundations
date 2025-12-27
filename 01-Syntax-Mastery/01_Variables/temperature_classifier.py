@@ -1,13 +1,24 @@
-# Temperature Classifier
+'''
+Temperature Classifier 
+'''
 
+# Read temperature in Celsius from the user
 temperature = float(input("Enter temperature in Celsius: "))
+
+# Store temperature classification
+classify = ""
+
+# Determine classification based on Celsius temperature ranges
 if temperature >= 40:
-    print("Extreme Heat")
+    classify = "Very Hot"
 elif 30 <= temperature < 40:
-    print("Hot")
+    classify = "Hot"
 elif 20 <= temperature < 30:
-    print("Warm")
+    classify = "Warm"
 elif 10 <= temperature < 20:
-    print("Cool")
+    classify = "Cool"
 else:
-    print("Cold")
+    classify = "Cold"
+
+# Display the temperature classification
+print(f'Temperature Classification: {classify}')
