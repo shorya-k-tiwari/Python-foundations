@@ -2,9 +2,9 @@
 Grading System Based on Marks and Attendance
 '''
 
-# Read student's marks (0–100) and attendance percentage (0–100) from the user
-marks = int(input("Enter your marks (0–100): "))
-attendance = float(input("Enter your attendance percentage (0–100): "))
+# Read student's marks (0-100) and attendance percentage (0-100) from the user
+marks = int(input("Enter your marks (0-100): "))
+attendance = float(input("Enter your attendance percentage (0-100): "))
 
 # Initialize grade variable
 grade = ""
