@@ -1,10 +1,21 @@
-# # Simple system health evaluation using conditional logic
+''' 
+Simple system health evaluation using conditional logic 
+'''
 
-cpu_usage=int(input("Enter CPU usage percentage (0-100): "))
-memory_available=int(input("Enter available memory (in GB): "))
-if cpu_usage < 70 and memory_available >= 8:
-    print("System Status: Stable")
-elif cpu_usage < 90 and memory_available >= 4:
-    print("System Status: Under Load")
+# Get user input for CPU usage and available memory
+cpu=int(input("Enter CPU usage percentage (0-100): "))
+memory=int(input("Enter available memory (in GB): "))
+
+# Store evaluated system health status
+health = ""
+
+# Evaluate system health based on CPU and memory
+if cpu < 70 and memory >= 8:
+    health = "Stable"
+elif cpu < 90 and memory >= 4:
+    health = "Under Load"
 else:
-    print("System Status: Critical")
+    health = "Critical"
+
+# Output the system health status
+print(f"System Status: {health}")
