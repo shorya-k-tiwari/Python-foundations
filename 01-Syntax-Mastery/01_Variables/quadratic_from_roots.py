@@ -1,10 +1,12 @@
-''' Program to generate a quadratic equation from the given roots '''
+''' 
+Program to generate a quadratic equation from the given roots 
+'''
 
 # Taking roots of the quadratic equation as input from the user
 r1 = float(input("Enter the first root: "))
 r2 = float(input("Enter the second root: "))
 
-# Assigning coefficients 
+# Compute coefficients using sum and product of roots
 b = -(r1 + r2) 
 c = r1 * r2 
 
@@ -12,7 +14,7 @@ c = r1 * r2
 b_str= int(b) if b.is_integer() else b
 c_str= int(c) if c.is_integer() else c
 
-# Formatting coefficient of x
+# Format the x-term coefficient for clean equation display
 if  b_str == 1:
     d = f"+ x"
 elif b_str == 0:
