@@ -1,5 +1,5 @@
 '''
-Area Calculation Menu
+Area Calculation Menu Version 1
 '''
 
 # Display menu
