@@ -1,6 +1,7 @@
 '''
 Digit Analysis Engine
 '''
+
 # Input: Read a positive integer from the user
 n=int(input("Enter a positive integer: "))
 
