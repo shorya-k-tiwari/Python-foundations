@@ -13,7 +13,8 @@ if n > 0:
 elif n == 0:
     factorial = 1
 else: 
-    factorial = 'Factorial is not defined for negative numbers'
+    print("Factorial is not defined for negative numbers")
+    exit()
 
 # Display the result
 print(f"The factorial of {n}! is: {factorial}")
