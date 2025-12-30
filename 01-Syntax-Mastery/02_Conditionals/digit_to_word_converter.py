@@ -3,7 +3,7 @@ Digit to Word Converter
 '''
 
 # Get a digit input from the user
-n = int(input('Enter a Digit (0-9)'))
+n = int(input('Enter a Digit (0-9): '))
 
 # Convert digit to its word representation
 if n == 0:
