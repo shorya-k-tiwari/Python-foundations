@@ -1,5 +1,9 @@
 '''
 Palindrome Number Checker
+
+A palindrome number is a positive integer 
+that reads the same forwards and backwards in 
+its decimal representation
 '''
 
 # Take integer input from the user
