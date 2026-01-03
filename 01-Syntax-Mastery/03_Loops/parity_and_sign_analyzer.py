@@ -10,7 +10,7 @@ count = int(input('Enter how many numbers will you enter? '))
 
 # Validate count (cannot be negative)
 if count < 0:
-    print('Count cannot be zero!')
+    print('Count cannot be negative!')
 
 # Loop to accept numbers one by one
 for i in range(count):
