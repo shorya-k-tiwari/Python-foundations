@@ -1,5 +1,8 @@
 '''
 Factorial Calculator
+
+A factorial is the product of all positive integers 
+from 1 up to a given non negative integer n
 '''
 
 # Get user input
