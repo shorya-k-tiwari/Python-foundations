@@ -1,5 +1,9 @@
 '''
 Grace Marks Checker
+
+Grace marks are additional marks awarded 
+to students at the discretion of an educational 
+board or institution under specific circumstances
 '''
 
 # Take marks input from the user
