@@ -1,5 +1,5 @@
 ''' 
-User Information and Calculations 
+User Information Calculator
 '''
 
 # Read user information from input
