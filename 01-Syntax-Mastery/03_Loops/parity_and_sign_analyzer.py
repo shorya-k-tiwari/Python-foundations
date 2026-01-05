@@ -1,5 +1,8 @@
 '''
 Parity and Sign Analyzer
+
+
+The sign (or signum function, denoted sgn or sign) of a real number classifies it as positive, negative, or zero
 '''
 
 # Initialize counters for different classifications
