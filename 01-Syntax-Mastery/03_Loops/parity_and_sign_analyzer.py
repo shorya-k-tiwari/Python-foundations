@@ -1,8 +1,8 @@
 '''
 Parity and Sign Analyzer
 
-Parity refers to a binary classification or property that distinguishes two mutually exclusive states, often analogous to "even vs. odd" or involving a sign change under some transformation.
-The sign (or signum function, denoted sgn or sign) of a real number classifies it as positive, negative, or zero
+Parity refers to the property of an integer that classifies it as either even or odd
+The sign of a real number classifies it as positive, negative, or zero
 '''
 
 # Initialize counters for different classifications
