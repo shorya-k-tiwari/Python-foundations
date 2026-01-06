@@ -1,5 +1,7 @@
 '''
 Voting Eligibility Analyzer
+
+Voting eligibility is whether a person can legally vote based on their age (must be 18 or older)
 '''
 
 # Get user input for age
