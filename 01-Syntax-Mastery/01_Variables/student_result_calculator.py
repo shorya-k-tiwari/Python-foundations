@@ -1,5 +1,8 @@
 '''
 Student Result Calculator
+
+Student result refers to a student's grades, marks, 
+or performance outcomes from exams and assessments
 '''
 
 # Take subject-wise marks as input from the user
