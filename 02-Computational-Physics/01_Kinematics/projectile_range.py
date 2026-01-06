@@ -1,8 +1,11 @@
 '''
 Projectile Range Calculator
+
 Range is the total horizontal distance traveled by an object (projectile) 
 along the ground from its starting point to the point where it hits the ground again
+
 Formula: R = (v^2 * sin(2 * theta)) / g
+
 Note: Maximum range is achieved when theta = 45 degrees
 '''
 
