@@ -1,5 +1,7 @@
 '''
 Profile Statistics Calculator
+
+Profile statistics refer to custom personal metrics displayed in a scripted summary output
 '''
 
 # Personal information
