@@ -1,5 +1,7 @@
 ''' 
 User Information Calculator
+
+User information refers to data collected from inputs like name, age, and height in the script
 '''
 
 # Read user information from input
