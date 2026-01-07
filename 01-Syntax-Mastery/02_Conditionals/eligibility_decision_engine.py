@@ -1,5 +1,8 @@
 '''
 Eligibility Decision Engine
+
+Eligibility Decision Engine is automated logic engine applying multi-criteria rules 
+to classify candidates into outcome tiers (approve/wait/reject) based on input thresholds
 '''
 
 # Collect user inputs
