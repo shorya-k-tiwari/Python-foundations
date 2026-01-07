@@ -1,5 +1,5 @@
 ''' 
-Simple system health evaluation using conditional logic 
+System Health Checker
 '''
 
 # Get user input for CPU usage and available memory
