@@ -1,5 +1,8 @@
 '''
 Greatest of Three Numbers
+
+Greatest of Three Numbers is the maximum value among three given numbers, 
+identified through direct comparisons like if A ≥ B and A ≥ C
 '''
 
 # Get inputs
