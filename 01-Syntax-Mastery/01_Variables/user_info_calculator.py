@@ -1,26 +1,21 @@
-''' 
+"""
 User Information Calculator
+Collects basic user data and computes simple derived metrics for display
+"""
 
-User information refers to data collected from inputs like name, age, and height in the script
-'''
+name = input("Enter your name: ")
+age = int(input("Enter your age (in years): "))
+height = float(input("Enter your height (in meters): "))
 
-# Read user information from input
-name = input('Enter Your Name: ')
-age = int(input('Enter Your Age (in years): '))
-height = float(input('Enter Your Height (in meters): '))
-
-# Compute additional info (months, days, height in cm)
 months = age * 12
 days = age * 365
-cm = height * 100
+height_cm = height * 100
 
-# Display types of the variables 
-print(f"Type of name: {type(name)}")
-print(f"Type of age: {type(age)}")
-print(f"Type of height: {type(height)}")
+print(f"Type of name   : {type(name)}")
+print(f"Type of age    : {type(age)}")
+print(f"Type of height : {type(height)}")
 
-# Display user information summary
-print("\n---User Information Summary---")
-print(f'Hello {name}!')
-print(f'You are {age} years old which is approximately {months} months or {days} days')
-print(f'Your height is {height} meters which is {cm} centimeters')
+print("\n--- User Information Summary ---")
+print(f"Hello {name}!")
+print(f"You are approximately {months} months or {days} days old")
+print(f"Your height is {height} meters ({height_cm:.1f} cm)")
