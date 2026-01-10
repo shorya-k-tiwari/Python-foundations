@@ -1,39 +1,31 @@
-'''
+"""
 Grace Marks Checker
+Evaluates pass/fail status by applying a fixed grace rule to borderline marks
+"""
 
-Grace marks are additional marks awarded 
-to students at the discretion of an educational 
-board or institution under specific circumstances
-'''
+marks = float(input("Enter your marks: "))
 
-# Take marks input from the user
-marks = float(input('Enter your marks: '))
-
-# Validate marks input
 if marks < 0:
-    print('Marks cannot be negative!')
-    exit()
+    print("Invalid input. Marks cannot be negative")
+    status = None
 
-# Apply grace marks if marks are less than or equal to 33
 elif marks <= 33:
     grace = marks + 5
 
-    # Check pass/fail after grace marks
     if grace > 33:
-        status = 'Pass'
-        note = 'Work Hard'
+        status = "Pass"
+        note = "Work Hard"
     else:
-        status = 'Fail'
-        note = 'Needs Improvement'
+        status = "Fail"
+        note = "Needs Improvement"
 
-# If marks are already above passing marks
 else:
     grace = marks
-    status = 'Pass'
-    note = 'Good Job!'        
+    status = "Pass"
+    note = "Good Job!"
 
-# Display final result
-print(f'Actual marks: {marks}')
-print(f'Grace marks: {grace}')
-print(f'Status: {status}')
-print(f'Note: {note}')
+if status is not None:
+    print(f"Actual Marks : {marks}")
+    print(f"Final Marks  : {grace}")
+    print(f"Status       : {status}")
+    print(f"Note         : {note}")
