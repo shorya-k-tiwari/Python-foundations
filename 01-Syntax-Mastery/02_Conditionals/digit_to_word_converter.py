@@ -1,37 +1,34 @@
-''' 
+"""
 Digit to Word Converter
+Converts a single digit (0–9) into its English word representation
+"""
 
-Digit to Word Converter is mapping numbers to spelled-out 
-English words via place-value grouping and lookup tables
-'''
+n = int(input("Enter a digit (0-9): "))
 
-# Get a digit input from the user
-n = int(input('Enter a Digit (0-9): '))
-
-# Convert digit to its word representation
 if n == 0:
-    digit = 'Zero'
+    word = "Zero"
 elif n == 1:
-    digit = 'One'
+    word = "One"
 elif n == 2:
-    digit = 'Two'
+    word = "Two"
 elif n == 3:
-    digit = 'Three'
+    word = "Three"
 elif n == 4:
-    digit = 'Four'
+    word = "Four"
 elif n == 5:
-    digit = 'Five'
+    word = "Five"
 elif n == 6:
-    digit = 'Six'
+    word = "Six"
 elif n == 7:
-    digit = 'Seven'
+    word = "Seven"
 elif n == 8:
-    digit = 'Eight'
+    word = "Eight"
 elif n == 9:
-    digit = 'Nine'
-else: 
-    print('Invalid Digit!')
-    exit()
+    word = "Nine"
+else:
+    word = None
 
-# Display the result
-print(f'{digit}')
+if word is not None:
+    print(word)
+else:
+    print("Invalid digit. Please enter a number between 0 and 9")
