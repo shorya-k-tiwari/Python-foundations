@@ -1,27 +1,20 @@
-'''
-Temperature Classifier 
+"""
+Temperature Classifier
 
-Temperature classifier categorizes temperatures into levels like freezing,
-cold, cool, warm, hot, or extreme using defined thresholds
-'''
+Classifies a temperature value into defined ranges
+"""
 
-# Read temperature in Celsius from the user
 temperature = float(input("Enter temperature in Celsius: "))
 
-# Store temperature classification
-classify = ""
-
-# Determine classification based on Celsius temperature ranges
 if temperature >= 40:
-    classify = "Very Hot"
-elif 30 <= temperature < 40:
-    classify = "Hot"
-elif 20 <= temperature < 30:
-    classify = "Warm"
-elif 10 <= temperature < 20:
-    classify = "Cool"
+    classification = "Very Hot"
+elif temperature >= 30:
+    classification = "Hot"
+elif temperature >= 20:
+    classification = "Warm"
+elif temperature >= 10:
+    classification = "Cool"
 else:
-    classify = "Cold"
+    classification = "Cold"
 
-# Display the temperature classification
-print(f'Temperature Classification: {classify}')
+print(f"Temperature Classification: {classification}")
