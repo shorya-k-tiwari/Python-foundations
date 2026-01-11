@@ -1,5 +1,6 @@
 """
 Area Calculation Menu
+
 Computes the area of basic geometric shapes based on user selection
 """
 
