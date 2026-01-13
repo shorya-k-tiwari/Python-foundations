@@ -1,7 +1,7 @@
 """
 Multiplication Table Generator
 
-Generates a multiplication table for a given number.
+Generates a multiplication table for a given number
 """
 
 number = int(input("Enter a number: "))
