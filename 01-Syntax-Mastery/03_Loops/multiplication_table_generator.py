@@ -1,24 +1,17 @@
-'''
+"""
 Multiplication Table Generator
 
-A multiplication table is a mathematical list or grid 
-that shows the results of multiplying one number by a set of others
-'''
+Generates a multiplication table for a given number.
+"""
 
-# Take the number whose table is to be generated
-number = int(input('Enter a Number: '))
+number = int(input("Enter a number: "))
+count = int(input("Enter the number of multiples to generate: "))
 
-# Take how many multiples the user wants
-count = int(input('Enter the number of multiples to generate: '))
-
-# Validate the count input
 if count < 0:
-    print('Count cannot be negative!')
+    print("Count cannot be negative")
     exit()
 
-# Display table header
-print('\n', f'|=== Multiplication Table ===|')
+print("\n=== Multiplication Table ===")
 
-# Generate multiplication table using for loop
 for i in range(1, count + 1):
-    print(f'{number} x {i} = {number * i}')
+    print(f"{number} x {i} = {number * i}")
