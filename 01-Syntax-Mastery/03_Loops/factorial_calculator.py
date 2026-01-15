@@ -1,7 +1,7 @@
 """
 Factorial Calculator
 
-Computes the factorial of a non-negative integer.
+Computes the factorial of a non-negative integer
 """
 
 n = int(input("Enter a non-negative integer: "))
