@@ -1,27 +1,18 @@
-'''
+"""
 Time of Flight Calculator
 
-Time of Flight: The total duration (in seconds) that a projectile 
-remains in the air before hitting the target or ground
+Calculates the time a projectile remains in air
+"""
 
-Formula: T = (2 * u * sin(theta)) / g
-'''
-
-# Import necessary module
 import math
 
-# Input values
-velocity = float(input("Enter the velocity (u) in m/s:"))
-theta=float(input("Enter theta (In Degrees):"))
+u = float(input("Enter the velocity (u) in m/s: "))
+theta = float(input("Enter angle (in degrees): "))
 
-# Acceleration due to gravity (in m/s^2)
-g=9.8
+g = 9.8
 
-# Convert angle from degrees to radians
-radians=math.radians(theta)
+theta_rad = math.radians(theta)
 
-# Calculate Time of Flight
-T=(2*velocity*math.sin(radians))/g
+T = (2 * u * math.sin(theta_rad)) / g
 
-# Output the result
-print(f'Time of Flight (T) is: {T:.2f} seconds')
+print(f"Time of Flight: {T:.2f} seconds")
