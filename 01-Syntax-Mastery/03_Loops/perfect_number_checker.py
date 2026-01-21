@@ -3,7 +3,7 @@ Perfect Number Checker
 
 A perfect number is a positive integer
 that equals the sum of its proper divisors
-(excluding the number itself).
+(excluding the number itself)
 '''
 
 n = int(input("Enter a number: "))
