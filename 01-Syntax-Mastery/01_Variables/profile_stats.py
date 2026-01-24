@@ -1,5 +1,6 @@
 """
 Profile Statistics Calculator
+
 Computes and displays derived study metrics for a personal profile
 """
 

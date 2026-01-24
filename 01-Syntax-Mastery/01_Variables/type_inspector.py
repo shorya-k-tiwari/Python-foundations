@@ -1,5 +1,6 @@
 """
 Type Inspector
+
 Collects user input, converts values to basic data types, and displays their types
 """
 

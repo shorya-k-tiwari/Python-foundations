@@ -1,5 +1,6 @@
 """
 Student Result Calculator
+
 Accepts subject-wise marks and computes total, average, and percentage
 """
 

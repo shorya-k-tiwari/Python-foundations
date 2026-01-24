@@ -1,5 +1,6 @@
 """
 Bio Data Script
+
 Displays a basic personal profile using predefined variables
 """
 

@@ -1,5 +1,6 @@
 """
 User Information Calculator
+
 Collects basic user data and computes simple derived metrics for display
 """
 
