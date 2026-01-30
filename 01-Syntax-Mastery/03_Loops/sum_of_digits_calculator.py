@@ -1,7 +1,7 @@
 '''
 Sum of Digits Calculator
 
-Calculates the sum of all digits of an integer using iteration.
+Calculates the sum of all digits of an integer using iteration
 '''
 
 num = int(input("Enter an integer: "))
