@@ -27,11 +27,10 @@ def decision_pipeline(age, score, flag):
     result = check_age(age)
     if result:
         return result
-
     result = check_discipline(flag)
     if result:
         return result
-
+    
     return check_score(score)
 
 age = int(input("Enter age: "))
