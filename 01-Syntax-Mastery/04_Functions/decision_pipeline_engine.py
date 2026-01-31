@@ -35,6 +35,6 @@ def decision_pipeline(age, score, flag):
 
 age = int(input("Enter age: "))
 score = int(input("Enter score: "))
-flag = input("Disciplinary record? (yes/no): ").lower()
+flag = input("Disciplinary record? (yes/no): ").strip().lower()
 result = decision_pipeline(age, score, flag)
 print(f"Final Decision: {result}")
